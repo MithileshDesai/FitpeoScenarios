@@ -78,6 +78,7 @@ public class FlipkartAutomationTest {
         submitButton.click();
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//input[@class='_2IX_2- _17N0em']")));
+
     }
 
     private static void enterPhoneNumber(WebDriver driver, String phoneNumber) {
